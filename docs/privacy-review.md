@@ -40,7 +40,7 @@ Reviewed October 27, 2026. Source checkout: `C:/Users/T_Ada/Documents/Godot/Proj
 Copied unchanged, not generated or represented as final-release screenshots:
 
 - `assets/images/hexglow-icon.png` → `assets/icon/hexglow-512.png`.
-- `assets/images/shapes.png` → `builds/generation-shapes-10-dark.png` (corner-based Shapes).
+- `assets/images/shapes.png` → `builds/generation-shapes-10-dark.png` (Form mode; original capture filename retained).
 - `assets/images/colors.png` → `builds/generation-color_seams-10-dark.png`.
 - `assets/images/light.png` → `nexus-node/docs/assets/procedural-validation/light_network-10-dark-complete.png`.
 
