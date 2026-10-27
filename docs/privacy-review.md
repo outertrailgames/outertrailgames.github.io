@@ -53,3 +53,7 @@ The optional `tools/check_site.py` checks all HTML internal URLs and fragments, 
 Browser automation inventory returned no available browsers in this session, so desktop/mobile visual rendering, zoom, and interactive keyboard checks remain manual. No claim of a completed visual device test is made. The live deployment is unverified until the owner pushes and enables Pages.
 
 Completed checks: five HTML pages, 73 internal references, and 15 HTTP routes/assets passed. `git diff --check` passed. Served HTML/CSS/SVG/PNG assets total approximately 209 KB. No JavaScript is present.
+
+## Data safety wording update - October 27, 2026
+
+Updated the policy with explicit approximate location, interactions, diagnostics/performance, identifiers, age-group and purchase-history categories. Clarified transmission of the age flag to UMP/ads, purchase-token acknowledgement through Play, purposes, and limits of advertising controls. These statements describe source behavior, not a verified final Play Console submission. No new crash-log claim or provider retention period was introduced. Existing draft/release review status remains. Remaining game release checks are tracked in HexGlow's canonical `nexus-node/docs/android-monetization-setup.md`; this website update is recorded here.
