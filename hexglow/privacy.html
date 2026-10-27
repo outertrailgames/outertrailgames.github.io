@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HexGlow Privacy Policy — Outer Trail Games</title>
+<meta name="description" content="Privacy information for HexGlow, including advertising, Google Play purchases, local saves, privacy choices, and contact details.">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#0b111b">
+<link rel="canonical" href="https://outertrailgames.github.io/hexglow/privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HexGlow Privacy Policy — Outer Trail Games">
+<meta property="og:description" content="Privacy information for HexGlow, including advertising, Google Play purchases, local saves, privacy choices, and contact details.">
+<meta property="og:url" content="https://outertrailgames.github.io/hexglow/privacy.html">
+<meta property="og:site_name" content="Outer Trail Games">
+<link rel="icon" href="/assets/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner"><a class="brand" href="/"><img src="/assets/mark.svg" alt="" width="40" height="40">Outer Trail Games</a>
+<nav aria-label="Main navigation"><a href="/#games">Games</a><a href="/hexglow/">HexGlow</a><a href="/#contact">Contact</a>
+</nav>
+</div>
+</header>
+<main id="main">
+<article class="wrap document">
+<p class="eyebrow">HexGlow / Privacy</p>
+<h1>HexGlow Privacy Policy</h1>
+<p>Last updated: <time datetime="2026-10-27">October 27, 2026</time>
+</p>
+<aside class="notice" aria-label="Policy review status"><strong>Draft — release review required</strong>
+<p>This policy describes the implementation reviewed on October 27, 2026. Before release, Outer Trail Games must confirm the final SDKs, advertising settings, audience declarations, and third-party retention and deletion details. This draft is not a claim that release compliance has been verified.</p>
+</aside>
+<p>Outer Trail Games develops HexGlow, an Android puzzle game (application ID <code>com.outertrailgames.hexglow</code>). This policy explains how information is handled by the game and its integrated services.</p>
+<nav class="policy-nav" aria-label="Privacy policy sections"><a href="#information">Information</a><a href="#advertising">Advertising</a><a href="#storage">Local storage</a><a href="#children">Children</a><a href="#deletion">Deletion</a><a href="#contact">Contact</a>
+</nav>
+<h2 id="information">Information collected and processed</h2>
+<p>HexGlow does not require an Outer Trail Games account or ask for your name, email address, contacts, or precise location to play. The reviewed game code does not send puzzle saves to a studio-operated server. These limits do not mean that the app’s third-party services collect no personal information.</p>
+<p>The Android app uses internet access for advertising, consent, and Google Play purchase services. No separate gameplay analytics or crash-reporting integration was identified in the reviewed code. Advertising services still process interaction and diagnostic data as described below.</p>
+<h2 id="advertising">Advertising and third-party services</h2>
+<p>HexGlow integrates Google AdMob (Google Mobile Ads SDK) for startup and between-puzzle advertisements. Google documents that its advertising SDK collects and shares IP addresses (which can indicate approximate location), app and ad interactions, diagnostics, and device or account identifiers, including the Android advertising ID where available. These data support advertising, measurement, and fraud prevention. Actual processing depends on the SDK version, device settings, and applicable privacy choices. See <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google’s SDK data disclosure</a> and <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.</p>
+<p>Google’s User Messaging Platform (UMP) handles consent messages and privacy choices. HexGlow passes an under-age-of-consent flag based on your selected age group. The game waits for UMP’s permission to request ads before loading them. Where Google requires a privacy options form, you can reopen it from <strong>Settings → Ad-free &amp; privacy → Privacy choices</strong>. You can also change your age group in that panel. Available choices depend on your region and Google’s configuration.</p>
+<p>You can use your Android device’s advertising privacy controls to reset or delete its advertising ID, where supported. This does not necessarily stop all advertising data processing.</p>
+<h3>Google Play purchases</h3>
+<p>The app integrates Google Play Billing for an optional permanent ad-free purchase and restoration of that purchase. Google handles checkout. HexGlow processes purchase status, product identifiers, and purchase tokens to recognize and acknowledge ownership, and stores an ownership flag locally. The game does not ask you to enter payment-card details. Recognized ad-free ownership stops new ad requests and displays; it does not delete data previously processed by Google or stop purchase and consent services from operating.</p>
+<h2 id="storage">Local device storage</h2>
+<p>HexGlow stores puzzle progress, attempts, generated puzzle definitions, and preferences such as appearance, audio, hints, and difficulty in its app storage. It keeps recovery copies of save data. It also stores your selected age group (under 16 or 16 or older), rather than your date of birth, and a cached ad-free ownership flag. Google’s SDKs may store their own service and consent information on your device.</p>
+<p>The reviewed Android export disables Android app-data backup. HexGlow does not implement its own cloud-save service.</p>
+<h2 id="children">Children’s privacy</h2>
+<p>The recorded intended audience is teens and adults aged 13 and older; HexGlow is not intended for children under 13. Its age-group selection distinguishes under 16 from 16 or older and is used for advertising privacy settings. It is not age verification and does not separately identify children under 13.</p>
+<p>If you believe a child has provided personal information through HexGlow, contact Outer Trail Games using the address below. The studio must confirm that its final Google Play audience declarations and advertising configuration match this intended audience before release.</p>
+<h2 id="deletion">Data retention and deletion</h2>
+<p>Local progress and preferences remain on your device until replaced or removed. To remove the app’s local data, clear HexGlow’s storage in Android Settings or uninstall the app. This erases local progress and preferences, including recovery saves and the cached purchase flag. A Google Play purchase can still be recognized through purchase restoration; clearing local data does not cancel or erase Google’s purchase records.</p>
+<p>Data held by Google is subject to Google’s retention policies and controls. Clearing HexGlow’s storage does not delete information already transmitted to Google. See <a href="https://policies.google.com/technologies/retention">Google’s data retention explanation</a> and <a href="https://support.google.com/accounts/answer/3024190">Google’s data deletion guidance</a>. Contact Outer Trail Games for questions about data handling or deletion. A provider-specific retention period has not been verified for this release.</p>
+<h2>Security</h2>
+<p>Google states that Mobile Ads SDK data is encrypted in transit using TLS. Local game data is stored in the app’s device storage; this policy does not promise that it is separately encrypted. No method of transmission or storage is completely secure.</p>
+<h2>Changes to this policy</h2>
+<p>Updates will be published on this page with a revised “Last updated” date. The policy should be reviewed whenever the game’s services or data-handling practices change.</p>
+<h2 id="contact">Contact</h2>
+<p>For privacy questions or requests, contact <strong>Outer Trail Games</strong> at <a href="mailto:outertrailgames@gmail.com">outertrailgames@gmail.com</a>. Please identify HexGlow in your message and avoid sending payment details or other unnecessary sensitive information.</p>
+<p><a href="/hexglow/">&#8592; Back to HexGlow</a>
+</p>
+</article>
+</main>
+<footer>
+<div class="wrap footer-inner"><span>&copy; 2026 Outer Trail Games · Independent game development</span>
+<div class="footer-links"><a href="/privacy.html">Website privacy</a><a href="/hexglow/privacy.html">HexGlow privacy</a><a href="mailto:outertrailgames@gmail.com">Contact</a>
+</div>
+</div>
+</footer>
+</body>
+</html>
